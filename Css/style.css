@@ -1,0 +1,26 @@
+/*********************************************/
+/*****                                   *****/
+/*****             STYLE.CSS             *****/
+/*****                                   *****/
+/*****                                   *****/
+/*****  Denna fil sätter allt utseende   *****/
+/*****  förutom griddens laytout         *****/
+/*****                                   *****/
+/*********************************************/
+
+
+header{
+    background-color: blue;
+}
+
+nav{
+    background-color: black;
+}
+
+section{
+    background-color: aqua;
+}
+
+footer{
+    background-color: azure;
+}
