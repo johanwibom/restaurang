@@ -6,41 +6,36 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" type="text/css" href="css/grid.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lobster&display=swap" rel="stylesheet">
+
+
 	</head>
 	<body>
-		<!-- Simulate a smartphone / tablet -->
-<div class="mobile-container">
-
-	<!-- Top Navigation Menu -->
-	<div class="topnav">
-	  <a href="#home" class="active">Logo</a>
-	  <div id="myLinks">
-		<a href="#news">News</a>
-		<a href="#contact">Contact</a>
-		<a href="#about">About</a>
-	  </div>
-	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-		<i class="fa fa-bars"></i>
-	  </a>
-	</div>
 	
-	<div style="padding-left:16px">
-	  <h3>Vertical Mobile Navbar</h3>
-	  <p>This example demonstrates how a navigation menu on a mobile/smart phone could look like.</p>
-	  <p>Click on the hamburger menu (three bars) in the top right corner, to toggle the menu.</p>
-	</div>
-	
-	<!-- End smartphone / tablet look -->
-	</div>
-	
-		<div class="container">
+	<div class="container">	
+		<div class="dropdown">
+			<button onclick="myFunction()" class="dropbtn">Meny med länkar</button>
+			<div id="myDropdown" class="dropdown-content">
+			  <a href="meny.html">Meny</a>
+			  <a href="mailto:bron@johan.wibom.se?subject=Feedback Bron&body=Hej.">Maila oss</a>
+			</div>
+		  </div>
 			<img class="loggan" src="img/caffelogga.jpeg" alt="bild"> 
 			<header>
 				<H1>Resturang</H1>
 			 </header>
-			<!--<nav>nav</nav>-->			
 			<section>
-				<img src="img/bild.webp" alt=""><h2>Rubrik 1</h2><img src="img/fika.jpeg" alt="" class="fika">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit nisl vel urna bibendum euismod. Vestibulum convallis dignissim hendrerit. Proin non turpis enim. Integer sit amet ipsum in libero auctor pellentesque. Pellentesque malesuada sodales odio, sed sollicitudin diam eleifend non. Pellentesque ut quam pharetra, tincidunt est a, vestibulum velit. Cras aliquet, metus eget fringilla sollicitudin, sem felis placerat urna, in faucibus lorem quam et velit. Nunc tincidunt pretium leo, et tempus enim rutrum sit amet. <br/><br/>
+				<img src="img/bramat.jpeg" alt=""><h2>Resturangen</h2>
+				<div class="row">
+					<div class="column">
+					  <img src="img/fika.jpeg" alt="fika" style="width:100%">
+					</div>
+					<div class="column">
+					  <img src="img/nach.jpeg" alt="Efterätt" style="width:100%">
+					</div>
+				  </div> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit nisl vel urna bibendum euismod. Vestibulum convallis dignissim hendrerit. Proin non turpis enim. Integer sit amet ipsum in libero auctor pellentesque. Pellentesque malesuada sodales odio, sed sollicitudin diam eleifend non. Pellentesque ut quam pharetra, tincidunt est a, vestibulum velit. Cras aliquet, metus eget fringilla sollicitudin, sem felis placerat urna, in faucibus lorem quam et velit. Nunc tincidunt pretium leo, et tempus enim rutrum sit amet. <br/><br/>
 
 				<p>Praesent quis sollicitudin nibh. Integer quam urna, scelerisque nec convallis vitae, convallis ut magna. Pellentesque a metus sit amet metus convallis volutpat. Morbi ut massa vel lectus vulputate maximus. Curabitur congue egestas iaculis. Curabitur feugiat fringilla dignissim. Nunc in egestas sem, eu sollicitudin ante. Phasellus efficitur justo vitae mauris congue laoreet. Nulla ultricies egestas diam, sed cursus lorem tincidunt eget. Nam at massa at augue maximus sagittis id id sapien. Phasellus ultricies felis non magna cursus, aliquam luctus eros tristique. Quisque consectetur est nec ipsum interdum scelerisque.<br/><br/>
 				
@@ -52,9 +47,9 @@
 			</section>
 			<footer>
 			<ul>
-				<li><a href="mailto:bron@johan.wibom.se?subject=Feedback Bron&body=Hej.">Maila oss</a></li>
-				<li>Platsinfo</li>
-				<li>öppettider</li>
+				<!--<li><a href="mailto:bron@johan.wibom.se?subject=Feedback Bron&body=Hej.">Maila oss</a></li>-->
+				<li>Platsinfo: Gårdsvägem 3</li>
+				<li>Öppettider: 17-22</li>
 			</ul>
 					
 			</footer>

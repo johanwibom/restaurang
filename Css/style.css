@@ -9,20 +9,17 @@
 /*********************************************/
 
 
-header{
 
+.Biff{
+width: 150px;
 }
 
-/*nav{
-    background-color: rgb(215, 55, 55);
-}
-*/
 section{
-    background-color: aqua;
+    background-color: rgb(176, 176, 176);
 }
 
 footer{
-    background-color: rgb(29, 160, 160);
+    background-color: rgb(176, 176, 176);
 }
 
 .loggan{
@@ -37,49 +34,61 @@ footer{
     width: 50%;
 }
    
-/*js*/
-
-.mobile-container {
-    max-width: 480px;
-    margin: auto;
-    background-color: #555;
-    height: 500px;
+  dropbtn {
+    background-color: #3498DB;
     color: white;
-    border-radius: 10px;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
   }
   
-  .topnav {
-    overflow: hidden;
-    background-color: #333;
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
     position: relative;
+    display: inline-block;
   }
   
-  .topnav #myLinks {
+  .dropdown-content {
     display: none;
-  }
-  
-  .topnav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-  
-  .topnav a.icon {
-    background: black;
-    display: block;
     position: absolute;
-    right: 0;
-    top: 0;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
   }
   
-  .topnav a:hover {
-    background-color: #ddd;
+  .dropdown-content a {
     color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
   }
   
-  .active {
-    background-color: #04AA6D;
-    color: white;
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+  
+  * {
+    box-sizing: border-box;
   }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  font-family: 'DM Serif Display', serif;
+font-family: 'Lobster', cursive;
